@@ -1,0 +1,29 @@
+{
+  "name": "highlightme",
+  "version": "1.0.0",
+  "description": "highlightme is a simple snytax highlighter for your web pages!...",
+  "main": "highlightme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amritbera27/highlightme.git"
+  },
+  "keywords": [
+    "highlightme",
+    "hlme",
+    "snytax",
+    "highlighter",
+    "code",
+    "highlighter",
+    "code",
+    "view"
+  ],
+  "author": "Amrit Bera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amritbera27/highlightme/issues"
+  },
+  "homepage": "https://github.com/amritbera27/highlightme#readme"
+}
