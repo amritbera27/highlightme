@@ -78,7 +78,7 @@ View the table to know about which string will highlight which language
 
 | String | Language |
 | ------ | -------- |
-| ` html ` (Default dance) | HTML |
+| ` html ` (Default) | HTML |
 | ` xml ` | XML |
 | ` css ` | CSS |
 | ` js ` | JavaScript |
@@ -165,7 +165,7 @@ View the table to know about which string will highlight which language
 
 | String | Language |
 | ------ | -------- |
-| ` html ` (Default dance) | HTML |
+| ` html ` (Default) | HTML |
 | ` xml ` | XML |
 | ` css ` | CSS |
 | ` js ` | JavaScript |
