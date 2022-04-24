@@ -26,11 +26,9 @@ function highlightme(elmnt, lang, mode) {
  elmntObj.style.overflow = "auto";
  elmntObj.style.whiteSpace = "nowrap";
  elmntObj.style.whiteSpace = "pre";
- elmntObj.style.display = "flex";
- elmntObj.style.alignItems = "center";
  
  if(mode == "dark") {
- 	tagcolor = "#ffc04e";
+  tagcolor = "#ffc04e";
   tagnamecolor = "#ffc04e";
   attributecolor = "#aeb3ba";
   attributevaluecolor = "#007a0c";
@@ -392,52 +390,52 @@ function highlightmeAll() {
  const nodeListNoHighlightDark = document.querySelectorAll(".hlme-nohighlight-dark");
  
  for(let i = 0; i < nodeListHtml.length; i++){
-	 highlightme(nodeListHtml[i], "html");
-	 nodeListHtml[i].style.marginBottom = "10px";
+  highlightme(nodeListHtml[i], "html");
+  nodeListHtml[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListHtmlDark.length; i++){
-	 highlightme(nodeListHtmlDark[i], "html", "dark");
-	 nodeListHtmlDark[i].style.marginBottom = "10px";
+  highlightme(nodeListHtmlDark[i], "html", "dark");
+  nodeListHtmlDark[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListXml.length; i++){
-	 highlightme(nodeListXml[i], "xml");
-	 nodeListXml[i].style.marginBottom = "10px";
+  highlightme(nodeListXml[i], "xml");
+  nodeListXml[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListXmlDark.length; i++){
   highlightme(nodeListXmlDark[i], "xml", "dark");
-	 nodeListXmlDark[i].style.marginBottom = "10px";
+  nodeListXmlDark[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListCss.length; i++){
-	 highlightme(nodeListCss[i], "css");
-	 nodeListCss[i].style.marginBottom = "10px";
+  highlightme(nodeListCss[i], "css");
+  nodeListCss[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListCssDark.length; i++){
-	 highlightme(nodeListCssDark[i], "css", "dark");
-	 nodeListCssDark[i].style.marginBottom = "10px";
+  highlightme(nodeListCssDark[i], "css", "dark");
+  nodeListCssDark[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListJs.length; i++){
-	 highlightme(nodeListJs[i], "js");
-	 nodeListJs[i].style.marginBottom = "10px";
+  highlightme(nodeListJs[i], "js");
+  nodeListJs[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListJsDark.length; i++){
   highlightme(nodeListJsDark[i], "js", "dark");
   nodeListJsDark[i].style.marginBottom = "10px"; 
  }
  for(let i = 0; i < nodeListPlainText.length; i++){
-	 highlightme(nodeListPlainText[i], "plaintext");
-	 nodeListPlainText[i].style.marginBottom = "10px";
+  highlightme(nodeListPlainText[i], "plaintext");
+  nodeListPlainText[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListPlainTextDark.length; i++){
-	 highlightme(nodeListPlainTextDark[i], "plaintext", "dark");
-	 nodeListPlainTextDark[i].style.marginBottom = "10px";
+  highlightme(nodeListPlainTextDark[i], "plaintext", "dark");
+  nodeListPlainTextDark[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListNoHighlight.length; i++){
-	 highlightme(nodeListNoHighlight[i], "nohighlight");
-	 nodeListNoHighlight[i].style.marginBottom = "10px";
+  highlightme(nodeListNoHighlight[i], "nohighlight");
+  nodeListNoHighlight[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListNoHighlightDark.length; i++){
-	 highlightme(nodeListNoHighlightDark[i], "nohighlight", "dark");
-	 nodeListNoHighlightDark[i].style.marginBottom = "10px";
+  highlightme(nodeListNoHighlightDark[i], "nohighlight", "dark");
+  nodeListNoHighlightDark[i].style.marginBottom = "10px";
  }
 }
 
