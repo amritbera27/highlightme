@@ -25,6 +25,9 @@ function highlightme(elmnt, lang, mode) {
  elmntObj.style.fontWeight = "bold";
  elmntObj.style.overflow = "auto";
  elmntObj.style.whiteSpace = "nowrap";
+ elmntObj.style.whiteSpace = "pre";
+ elmntObj.style.display = "flex";
+ elmntObj.style.alignItems = "center";
  
  if(mode == "dark") {
  	tagcolor = "#ffc04e";
@@ -402,7 +405,7 @@ function highlightmeAll() {
  }
  for(let i = 0; i < nodeListXmlDark.length; i++){
   highlightme(nodeListXmlDark[i], "xml", "dark");
- 	nodeListXmlDark[i].style.marginBottom = "10px";
+	 nodeListXmlDark[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListCss.length; i++){
 	 highlightme(nodeListCss[i], "css");
@@ -418,7 +421,7 @@ function highlightmeAll() {
  }
  for(let i = 0; i < nodeListJsDark.length; i++){
   highlightme(nodeListJsDark[i], "js", "dark");
-  nodeListJsDark[i].style.marginBottom = "10px";
+  nodeListJsDark[i].style.marginBottom = "10px"; 
  }
  for(let i = 0; i < nodeListPlainText.length; i++){
 	 highlightme(nodeListPlainText[i], "plaintext");
@@ -433,8 +436,8 @@ function highlightmeAll() {
 	 nodeListNoHighlight[i].style.marginBottom = "10px";
  }
  for(let i = 0; i < nodeListNoHighlightDark.length; i++){
- 	highlightme(nodeListNoHighlightDark[i], "nohighlight", "dark");
-  nodeListNoHighlightDark[i].style.marginBottom = "10px";
+	 highlightme(nodeListNoHighlightDark[i], "nohighlight", "dark");
+	 nodeListNoHighlightDark[i].style.marginBottom = "10px";
  }
 }
 

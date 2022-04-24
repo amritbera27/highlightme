@@ -25,6 +25,9 @@ function highlightme(elmnt, lang, mode) {
  elmntObj.style.fontWeight = "bold";
  elmntObj.style.overflow = "auto";
  elmntObj.style.whiteSpace = "nowrap";
+ elmntObj.style.whiteSpace = "pre";
+ elmntObj.style.display = "flex";
+ elmntObj.style.alignItems = "center";
  
  if(mode == "dark") {
  	tagcolor = "#ffc04e";
@@ -417,7 +420,7 @@ for(let i = 0; i < nodeListJs.length; i++){
 }
 for(let i = 0; i < nodeListJsDark.length; i++){
  highlightme(nodeListJsDark[i], "js", "dark");
- nodeListJsDark[i].style.marginBottom = "10px";
+ nodeListJsDark[i].style.marginBottom = "10px"; 
 }
 for(let i = 0; i < nodeListPlainText.length; i++){
 	highlightme(nodeListPlainText[i], "plaintext");
