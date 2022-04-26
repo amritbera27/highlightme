@@ -1,5 +1,5 @@
 {
-  "name": "highlightme",
+  "name": "hlme",
   "version": "1.0.0",
   "description": "highlightme is a simple snytax highlighter for your web pages!...",
   "main": "highlightme.js",
@@ -11,14 +11,8 @@
     "url": "git+https://github.com/amritbera27/highlightme.git"
   },
   "keywords": [
-    "highlightme",
     "hlme",
-    "snytax",
-    "highlighter",
-    "code",
-    "highlighter",
-    "code",
-    "view"
+    "highlightme"
   ],
   "author": "Amrit Bera",
   "license": "MIT",

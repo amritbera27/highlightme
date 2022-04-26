@@ -18,7 +18,7 @@ highlightme is a simple snytax highlighter for your web pages!...
 
 ### NPM Package
 ```
-npm i highlightme
+npm i hlme
 ```
 
 ***
